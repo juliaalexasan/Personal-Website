@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4f0e7">
+    <title>Projects | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="index.html" aria-label="Home"></a>
+        <nav aria-label="Main navigation">
+            <a href="index.html#about">About</a>
+            <a href="index.html#hobbies">Hobbies</a>
+            <a href="projects.html" aria-current="page">Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-intro" aria-labelledby="projects-heading">
+            <h1 id="projects-heading">Projects</h1>
+            <p class="writing-space short-space" aria-label="Projects introduction">Here are some of the projects I've worked on this past year!</p>
+        </section>
+
+        <section class="project-grid" aria-label="Project gallery">
+            <article class="project-card">
+                <img class="photo-placeholder" role="img" src="IMG_7824.jpeg" alt="Project 1 photo">
+                <div class="project-caption" aria-label="Project details">
+                    <h2>Autonomous Robot</h2>
+                    <p>Developed an autonomous robot capable of navigating obstacles using sensors. Implemented algorithms for pathfinding and obstacle avoidance. Won first place overall at the Imperial Valley Robotics Competition!</p>
+                </div>
+            </article>
+            <article class="project-card">
+                <img class="photo-placeholder" role="img" src="PCB.png" alt="Project 2 photo">
+                <div class="project-caption" aria-label="Project details">
+                    <h2>PCB Design</h2>
+                    <p>Designed and manufactured a custom PCB for a microcontroller-based project. Implemented signal integrity and power distribution strategies.Successfully tested and validated the design in a real-world application.</p>
+                </div>
+            </article>
+            <article class="project-card">
+                <img class="photo-placeholder" role="img" src="IMG_5237.jpeg" alt="Project 3 photo">
+                <div class="project-caption" aria-label="Project details">
+                    <h2>Photography</h2>
+                    <p>Created a personal photography portfolio showcasing landscapes and urban scenes. Utilized various techniques to enhance visual storytelling and capture unique perspectives.</p>
+                </div>
+            </article>
+            <article class="project-card">
+                <img class="photo-placeholder" role="img" src="FurLink.jpg" alt="Project 4 photo">
+                <div class="project-caption" aria-label="Project details">
+                    <h2>Smart Pet Harness</h2>
+                    <p>Developed a smart pet harness equipped with GPS tracking and health monitoring features. Designed the hardware and software components to ensure reliable performance and user-friendly operation. Deployed a mobile app for users to monitor their pets' location and health metrics.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="text-link" href="index.html">&larr; Back home</a>
+        <div class="footer-line" aria-hidden="true"></div>
+    </footer>
+</body>
+</html>
